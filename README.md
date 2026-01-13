@@ -1,72 +1,95 @@
-# Sales Insights Dashboard | SQL & Power BI
+## **Sales Insights Dashboard | SQL & Power BI**
 
-**Project Overview**
-- This project is an **end-to-end sales analytics dashboard** built using **SQL and Power BI**. It focuses on analyzing sales data, generating actionable insights, and supporting **data-driven decision-making** for business stakeholders.
+## **Project Overview**
 
----
-
-## Features
-
-* **Data Extraction & Cleaning:**
-  Cleaned, transformed, and aggregated sales data using **SQL queries** and **Power Query** for accurate reporting.
-
-* **Key Insights & Profit Analysis:**
-  Identified top-performing products, regions, and loss-making segments to help optimize business strategy.
-
-* **Interactive Dashboards:**
-  Created **Power BI dashboards** to monitor KPIs such as revenue, profit margins, and sales trends.
-
-* **Performance Insights:**
-  Delivered actionable insights to improve overall sales performance and guide strategic decisions.
+This project focuses on analyzing sales data for **Atliq Hardware**, a hardware-selling company, using **SQL and Power BI**. The goal is to understand sales performance, identify trends, and generate insights that support data-driven business decisions.
 
 ---
 
-## Tech Stack
+## **Problem Statement**
 
-* **Database:** SQL (queries, aggregation, joins)
+Atliq Hardware was facing challenges in tracking sales performance across different markets, products, and time periods. The business required a centralized dashboard to monitor revenue trends, identify high-performing and underperforming areas, and improve decision-making.
+
+---
+
+## **Data Discovery**
+
+* The dataset belongs to **Atliq Hardware**, a hardware products seller.
+* Sales data includes transactions, markets, dates, currencies, sales quantities, and sales amounts.
+* A star schema was established to organize the data efficiently for analysis.
+
+---
+
+## **Data Analysis (SQL)**
+
+* Performed data exploration and analysis using SQL.
+* Analyzed:
+
+  * Total transactions and market-wise sales
+  * Yearly and monthly sales trends
+  * Market-specific performance
+  * Currency-based transactions
+  * Data quality issues such as negative or zero sales values
+* Used SQL concepts like **joins, aggregations, filtering, grouping, and ordering**.
+
+---
+
+## **Data Cleaning & ETL**
+
+* Cleaned and transformed data using **Power Query**.
+* Built a **star schema** and established proper relationships between fact and dimension tables.
+* Created calculated measures using **DAX** for metrics such as total sales and performance indicators.
+
+---
+
+## **Dashboard Development**
+
+* Built an interactive **Power BI dashboard** to visualize sales insights.
+* Dashboards include:
+
+  * Sales trends over time
+  * Market-wise performance comparison
+  * Key metrics for business analysis
+* Enabled filtering by year, month, and market for better exploration.
+
+---
+
+## **Tech Stack**
+
+* **Database:** SQL
 * **BI Tool:** Microsoft Power BI Desktop
 * **Data Transformation:** Power Query
-* **Visualization:** Interactive dashboards, KPI cards, charts, and filters
+* **Data Modeling:** Star Schema
+* **Analytics:** SQL queries, DAX
+* **Visualization:** Charts, KPI cards, slicers, and filters
 
 ---
 
-## Project Screenshots
+## **Project Screenshots**
 
-### 1️⃣ Key Insights
-
+1️⃣ **Key Insights Dashboard**
 ![Key Insights](images/key_insights.png)
 
-### 2️⃣ Profit Analysis
-
+2️⃣ **Sales Profit Analysis**
 ![Profit Analysis](images/profit_analysis.png)
 
-### 3️⃣ Performance Insights
-
-![Performance Insights](images/perf_insights.png)
-
----
-
-## Usage
-
-1. Open the **Power BI Desktop** file (`sales_insights_bi.pbix`).
-2. Connect it to your **SQL database** or use the provided dataset.
-3. Explore **interactive dashboards**, filters, and slicers to view insights.
-4. Publish to **Power BI Service** for sharing with stakeholders.
+3️⃣ **Performance insights**
+![Performance insights](images/perf_insights.png)
 
 ---
 
-## Outcome / Learnings
+## **Usage**
 
-* Gained hands-on experience in **data cleaning, transformation, and dashboarding**.
-* Learned to identify **critical business metrics** and KPIs.
-* Understood how to communicate **data-driven insights** effectively for stakeholders.
-
----
-
-## Future Enhancements
-
-* Add **predictive analytics** to forecast sales trends.
-* Integrate **real-time data updates** from the SQL database.
-* Enhance dashboard with **more interactive visuals** and drill-downs.
+1. Open the Power BI file (`.pbix`) in Power BI Desktop.
+2. Load the dataset or connect to the SQL database.
+3. Explore dashboards using filters and slicers to analyze insights.
 
 ---
+
+## **Outcome / Learnings**
+
+* Gained hands-on experience in **SQL-based data analysis**.
+* Learned **data cleaning, modeling, and ETL** using Power Query.
+* Understood how to design dashboards that answer real business questions.
+* Improved ability to convert raw data into actionable insights.
+
