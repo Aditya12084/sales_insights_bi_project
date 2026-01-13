@@ -38,7 +38,7 @@ Atliq Hardware was facing challenges in tracking sales performance across differ
 
 * Cleaned and transformed data using **Power Query**.
 * Built a **star schema** and established proper relationships between fact and dimension tables.
-* Created calculated measures using **DAX** for metrics such as total sales and performance indicators.
+* Created calculated measures using **DAX** for metrics such as revenue, profit margin (%) and performance indicators.
 
 ---
 
@@ -47,9 +47,9 @@ Atliq Hardware was facing challenges in tracking sales performance across differ
 * Built an interactive **Power BI dashboard** to visualize sales insights.
 * Dashboards include:
 
-  * Sales trends over time
-  * Market-wise performance comparison
-  * Key metrics for business analysis
+  * Key Insights
+  * Profit Analysis
+  * Performance insights
 * Enabled filtering by year, month, and market for better exploration.
 
 ---
